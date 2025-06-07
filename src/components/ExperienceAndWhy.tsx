@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Immersive Cultural Journeys",
-  description: "Delve into the rich histories and cultures of each port with guided shore excursions led by knowledgeable local experts.",
+  title: "Canada & Great Lakes Experts",
+  description: "Specializes in exploring North America’s coastal and inland gems with all-suite small ships.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Scenic Voyages",
-  description: "Sail through breathtaking landscapes—from the rugged coastlines of the Canadian Maritimes to the serene waters of the Great Lakes.",
+  title: "Intimate Coastal Cruising",
+  description: "Travel aboard elegant ships with under 200 guests and exceptional personalized service.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Exceptional Onboard Amenities",
-  description: "Relax in well-appointed staterooms, each featuring a private balcony, and indulge in gourmet cuisine crafted from locally sourced ingredients.",
+  title: "Cultural & Nature Immersion",
+  description: "Itineraries combine scenic wonders with in-depth regional heritage, cuisine, and history.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Thoughtfully Curated Itineraries",
-  description: "Each voyage is designed to showcase the unique charm and natural beauty of North America's waterways, offering a blend of iconic landmarks and hidden gems.",
+  title: "Spacious All-Suite Accommodations",
+  description: "Generous staterooms with private balconies and elegant furnishings ensure maximum comfort.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Pearl Sea Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
